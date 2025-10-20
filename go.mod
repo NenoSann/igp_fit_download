@@ -1,4 +1,4 @@
-module igp_fit_download
+module github.com/NenoSann/igp_fit_download
 
 go 1.24.2
 

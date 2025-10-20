@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-go get github.com/yourusername/fit-viewer/igpsport
+go get github.com/NenoSann/igp_fit_download/igpsport
 ```
 
 ## 快速开始
@@ -17,7 +17,7 @@ import (
     "fmt"
     "log"
     
-    "github.com/yourusername/fit-viewer/igpsport"
+    "github.com/NenoSann/igp_fit_download/igpsport"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"fit-viewer/igpsport"
+	"github.com/NenoSann/igp_fit_download/igpsport"
 
 	"github.com/joho/godotenv"
 )

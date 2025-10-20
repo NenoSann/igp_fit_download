@@ -75,7 +75,7 @@ package main
 
 import (
     "fmt"
-    "fit-viewer/igpsport"
+    "github.com/NenoSann/igp_fit_download/igpsport"
 )
 
 func main() {
@@ -137,5 +137,5 @@ go mod tidy
 然后在代码中：
 
 ```go
-import "fit-viewer/igpsport"
+import "github.com/NenoSann/igp_fit_download/igpsport"
 ```

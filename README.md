@@ -89,7 +89,7 @@ go build -o igpsport_crawler iGPSport_Crawler.go
 package main
 
 import (
-    "fit-viewer/igpsport"
+    "github.com/NenoSann/igp_fit_download/igpsport"
     "fmt"
 )
 
