@@ -2,9 +2,7 @@
 
 这是一个用 Go 语言编写的工具，用于从 iGPSport 网站获取运动记录并下载 FIT 文件。
 
-## ✨ 新版本特性
-
-**现在这个项目已经重构为一个可重用的 Go 包！** 你可以：
+## ✨ 新特性
 
 - 🔧 在当前项目中使用（作为爬虫工具）
 - 📦 在其他 Go 项目中导入使用（作为库）
@@ -44,7 +42,7 @@ fit-viewer/
 #### 1. 安装依赖
 
 ```bash
-cd /Users/liangheng/Code/Web/fit-viewer
+cd igp_fit_download
 go mod tidy
 ```
 
@@ -128,9 +126,9 @@ go run main.go
 2025/10/20 15:30:01 Fetched page 2/13 (20 activities)
 ...
 2025/10/20 15:30:10 Found 247 activities
-2025/10/20 15:30:10 [1/247] Processing activity: 户外骑行 (RideID: 40979454)
+2025/10/20 15:30:10 [1/247] Processing activity: 户外骑行 (RideID: 40279454)
 2025/10/20 15:30:11 Downloaded: ride-40979454-2025.10.18.fit
-2025/10/20 15:30:12 [2/247] Processing activity: 户外骑行 (RideID: 40978123)
+2025/10/20 15:30:12 [2/247] Processing activity: 户外骑行 (RideID: 40278123)
 2025/10/20 15:30:13 Downloaded: ride-40978123-2025.10.17.fit
 ...
 2025/10/20 15:35:00 Download completed!
@@ -160,14 +158,6 @@ fit-viewer/
 │   └── ...
 └── 2025-10-20 15:04:05-activities.json  # 活动记录 JSON
 ```
-
-## 📚 文档
-
-- **[PACKAGE_USAGE.md](PACKAGE_USAGE.md)** - 如何在其他项目中使用这个包
-- **[REFACTORING_SUMMARY.md](REFACTORING_SUMMARY.md)** - 重构总结和新功能说明
-- **[QUICKSTART.md](QUICKSTART.md)** - 快速开始指南
-- **[igpsport/README.md](igpsport/README.md)** - 包 API 文档
-- **[examples/README.md](examples/README.md)** - 示例程序说明
 
 ## 注意事项
 
