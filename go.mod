@@ -1,4 +1,4 @@
-module fit-viewer
+module igp_fit_download
 
 go 1.24.2
 
